@@ -1,5 +1,6 @@
 module.exports = async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' })
+	eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" })
 
 	return {
 		dir: {
