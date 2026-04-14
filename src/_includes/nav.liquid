@@ -1,12 +1,12 @@
 <header>
 	<div class="container">
 		<nav>
-			<a href="/">{{ site.name }}</a>
-			<a href="/">Home</a>
-			<a href="/villagers/">Villagers</a>
-			<a href="/crops/">Crops</a>
-			<a href="/fish/">Fish</a>
-			<a href="/buildings/">Buildings</a>
+			<a href="{{ '/' | url }}">{{ site.name }}</a>
+			<a href="{{ '/' | url }}">Home</a>
+			<a href="{{ '/villagers/' | url }}">Villagers</a>
+			<a href="{{ '/crops/' | url }}">Crops</a>
+			<a href="{{ '/fish/' | url }}">Fish</a>
+			<a href="{{ '/buildings/' | url }}">Buildings</a>
 		</nav>
 	</div>
 </header>
