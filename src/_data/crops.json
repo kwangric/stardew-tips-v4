@@ -1,0 +1,611 @@
+[
+	{
+		"id": "blue-jazz",
+		"name": "Blue Jazz",
+		"type": "flower",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 30 },
+			{ "name": "JojaMart", "price": 37 }
+		],
+		"sellPrice": 50,
+		"growDays": 7,
+		"experience": 10,
+		"description": "The flower grows in a sphere to invite as many butterflies as possible."
+	},
+	{
+		"id": "carrot",
+		"name": "Carrot",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [],
+		"sellPrice": 35,
+		"growDays": 3,
+		"experience": 8,
+		"description": "A fast-growing, colorful tuber that makes for a great snack."
+	},
+	{
+		"id": "cauliflower",
+		"name": "Cauliflower",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 80 },
+			{ "name": "JojaMart", "price": 100 }
+		],
+		"sellPrice": 175,
+		"growDays": 12,
+		"experience": 23,
+		"note": "Can become a Giant Crop.",
+		"description": "Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients."
+	},
+	{
+		"id": "coffee-bean",
+		"name": "Coffee Bean",
+		"type": "seed",
+		"seasons": ["spring", "summer"],
+		"seedSources": [],
+		"sellPrice": 15,
+		"growDays": 10,
+		"regrowthDays": 2,
+		"yield": 4,
+		"experience": 4,
+		"note": "Occasionally sold by the Traveling Cart. Each plant yields 4 beans per harvest with a small random chance for more beans.",
+		"description": "Plant in spring or summer to grow a coffee plant. Place five beans in a keg to make coffee."
+	},
+	{
+		"id": "garlic",
+		"name": "Garlic",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 40 }
+		],
+		"sellPrice": 60,
+		"growDays": 4,
+		"experience": 12,
+		"note": "Available from year 2+.",
+		"description": "Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy."
+	},
+	{
+		"id": "green-bean",
+		"name": "Green Bean",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 60 },
+			{ "name": "JojaMart", "price": 75 }
+		],
+		"sellPrice": 40,
+		"growDays": 10,
+		"regrowthDays": 3,
+		"isTrellis": true,
+		"experience": 9,
+		"description": "A juicy little bean with a cool, crisp snap."
+	},
+	{
+		"id": "kale",
+		"name": "Kale",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 70 },
+			{ "name": "JojaMart", "price": 87 }
+		],
+		"sellPrice": 110,
+		"growDays": 6,
+		"experience": 17,
+		"description": "The waxy leaves are great in soups and stir frys"
+	},
+	{
+		"id": "parsnip",
+		"name": "Parsnip",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 20 },
+			{ "name": "JojaMart", "price": 25 }
+		],
+		"sellPrice": 35,
+		"growDays": 4,
+		"experience": 8,
+		"description": "A spring tuber closely related to the carrot. It has an earthy taste and is full of nutrients."
+	},
+	{
+		"id": "potato",
+		"name": "Potato",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 50 },
+			{ "name": "JojaMart", "price": 62 }
+		],
+		"sellPrice": 80,
+		"growDays": 6,
+		"experience": 14,
+		"note": "25% chance to produce an extra potato per harvest.",
+		"description": "A widely cultivated tuber."
+	},
+	{
+		"id": "rhubarb",
+		"name": "Rhubarb",
+		"type": "fruit",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Oasis", "price": 100 }
+		],
+		"sellPrice": 220,
+		"growDays": 13,
+		"experience": 26,
+		"description": "The stalks are extremely tart, but make a great dessert when sweetened."
+	},
+	{
+		"id": "strawberry",
+		"name": "Strawberry",
+		"type": "fruit",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Egg Festival", "price": 100 }
+		],
+		"sellPrice": 120,
+		"growDays": 8,
+		"regrowthDays": 4,
+		"experience": 18,
+		"note": "2% chance to produce extra strawberry per harvest.",
+		"description": "A sweet, juicy favorite with an appealing red color."
+	},
+	{
+		"id": "tulip",
+		"name": "Tulip",
+		"type": "flower",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 20 },
+			{ "name": "JojaMart", "price": 25 }
+		],
+		"sellPrice": 30,
+		"growDays": 6,
+		"experience": 7,
+		"description": "The most popular spring flower. Has a very faint sweet smell."
+	},
+	{
+		"id": "unmilled-rice",
+		"name": "Unmilled Rice",
+		"type": "vegetable",
+		"seasons": ["spring"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 20 },
+			{ "name": "JojaMart", "price": 25 }
+		],
+		"sellPrice": 30,
+		"growDays": 8,
+		"experience": 7,
+		"note": "Grows faster when planted near water.",
+		"description": "Rice in its rawest form. Run this through a mill to increase the value."
+	},
+	{
+		"id": "blueberry",
+		"name": "Blueberry",
+		"type": "fruit",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 80 }
+		],
+		"sellPrice": 50,
+		"growDays": 13,
+		"regrowthDays": 4,
+		"yield": 3,
+		"experience": 10,
+		"note": "3 blueberries per harvest, with a small chance for more.",
+		"description": "A popular berry reported to have many health benefits."
+	},
+	{
+		"id": "corn",
+		"name": "Corn",
+		"type": "vegetable",
+		"seasons": ["summer", "fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 150 },
+			{ "name": "JojaMart", "price": 187 }
+		],
+		"sellPrice": 50,
+		"growDays": 14,
+		"regrowthDays": 4,
+		"experience": 10,
+		"description": "One of the most popular grains. The sweet, fresh cobs are a summer favorite."
+	},
+	{
+		"id": "hops",
+		"name": "Hops",
+		"type": "vegetable",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 60 },
+			{ "name": "JojaMart", "price": 75 }
+		],
+		"sellPrice": 25,
+		"growDays": 11,
+		"regrowthDays": 1,
+		"isTrellis": true,
+		"experience": 6,
+		"description": "A bitter, tangy flower used to flavor beer."
+	},
+	{
+		"id": "hot-pepper",
+		"name": "Hot Pepper",
+		"type": "fruit",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 40 },
+			{ "name": "JojaMart", "price": 50 }
+		],
+		"sellPrice": 40,
+		"growDays": 5,
+		"regrowthDays": 3,
+		"experience": 9,
+		"note": "3% chance to produce extra hot pepper per harvest.",
+		"description": "Fiery hot with a hint of sweetness"
+	},
+	{
+		"id": "melon",
+		"name": "Melon",
+		"type": "fruit",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 80 },
+			{ "name": "JojaMart", "price": 100 }
+		],
+		"sellPrice": 250,
+		"growDays": 12,
+		"experience": 27,
+		"note": "Can become a Giant Crop.",
+		"description": "A cool, sweet summer treat."
+	},
+	{
+		"id": "poppy",
+		"name": "Poppy",
+		"type": "flower",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 100 },
+			{ "name": "JojaMart", "price": 125 }
+		],
+		"sellPrice": 140,
+		"growDays": 7,
+		"experience": 20,
+		"description": "In addition to its colorful flower, the Poppy has culinary and medicinal uses."
+	},
+	{
+		"id": "radish",
+		"name": "Radish",
+		"type": "vegetable",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 40 },
+			{ "name": "JojaMart", "price": 50 }
+		],
+		"sellPrice": 90,
+		"growDays": 6,
+		"experience": 15,
+		"description": "A crisp and refreshing root vegetable with hints of pepper when eaten raw."
+	},
+	{
+		"id": "red-cabbage",
+		"name": "Red Cabbage",
+		"type": "vegetable",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 100 }
+		],
+		"sellPrice": 260,
+		"growDays": 9,
+		"experience": 28,
+		"note": "Available from year 2+.",
+		"description": "Often used in salads and coleslaws."
+	},
+	{
+		"id": "starfruit",
+		"name": "Starfruit",
+		"type": "fruit",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Oasis", "price": 400 }
+		],
+		"sellPrice": 750,
+		"growDays": 13,
+		"experience": 43,
+		"description": "An extremely juicy fruit that grows in hot, humid weather."
+	},
+	{
+		"id": "summer-spangle",
+		"name": "Summer Spangle",
+		"type": "flower",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 50 },
+			{ "name": "JojaMart", "price": 62 }
+		],
+		"sellPrice": 90,
+		"growDays": 8,
+		"experience": 15,
+		"description": "A tropical bloom that thrives in the humid summer air."
+	},
+	{
+		"id": "summer-squash",
+		"name": "Summer Squash",
+		"type": "vegetable",
+		"seasons": ["summer"],
+		"seedSources": [],
+		"sellPrice": 45,
+		"growDays": 6,
+		"regrowthDays": 3,
+		"experience": 9,
+		"description": "A curved yellow squash that is harvested while immature."
+	},
+	{
+		"id": "sunflower",
+		"name": "Sunflower",
+		"type": "flower",
+		"seasons": ["summer", "fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 200 },
+			{ "name": "JojaMart", "price": 125 }
+		],
+		"sellPrice": 80,
+		"growDays": 8,
+		"experience": 5,
+		"note": "Produces 0-2 Sunflower Seeds per harvest.",
+		"description": "A common misconception is that the flower turns so it's always facing the sun."
+	},
+	{
+		"id": "tomato",
+		"name": "Tomato",
+		"type": "vegetable",
+		"seasons": ["summer"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 50 },
+			{ "name": "JojaMart", "price": 62 }
+		],
+		"sellPrice": 60,
+		"growDays": 11,
+		"regrowthDays": 4,
+		"experience": 12,
+		"note": "5% chance to produce extra tomato per harvest.",
+		"description": "Rich and slightly tangy, the Tomato has a wide variety of culinary uses."
+	},
+	{
+		"id": "wheat",
+		"name": "Wheat",
+		"type": "vegetable",
+		"seasons": ["summer", "fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 10 },
+			{ "name": "JojaMart", "price": 12 }
+		],
+		"sellPrice": 25,
+		"growDays": 4,
+		"experience": 6,
+		"description": "One of the most widely cultivated grains."
+	},
+	{
+		"id": "amaranth",
+		"name": "Amaranth",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 70 },
+			{ "name": "JojaMart", "price": 87 }
+		],
+		"sellPrice": 150,
+		"growDays": 7,
+		"experience": 21,
+		"description": "A purple grain cultivated by an ancient civilization."
+	},
+	{
+		"id": "artichoke",
+		"name": "Artichoke",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 30 }
+		],
+		"sellPrice": 160,
+		"growDays": 8,
+		"experience": 22,
+		"note": "Available from year 2+.",
+		"description": "The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior."
+	},
+	{
+		"id": "beet",
+		"name": "Beet",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Oasis", "price": 20 }
+		],
+		"sellPrice": 100,
+		"growDays": 6,
+		"experience": 16,
+		"description": "A sweet and earthy root vegetable. As a bonus, the leaves make a great salad."
+	},
+	{
+		"id": "bok-choy",
+		"name": "Bok Choy",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 50 },
+			{ "name": "JojaMart", "price": 62 }
+		],
+		"sellPrice": 80,
+		"growDays": 4,
+		"experience": 14,
+		"description": "The leafy greens and fibrous stalks are healthy and delicious."
+	},
+	{
+		"id": "broccoli",
+		"name": "Broccoli",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [],
+		"sellPrice": 70,
+		"growDays": 8,
+		"regrowthDays": 4,
+		"experience": 13,
+		"description": "The flowering head of a broccoli plant."
+	},
+	{
+		"id": "cranberries",
+		"name": "Cranberries",
+		"type": "fruit",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 240 },
+			{ "name": "JojaMart", "price": 300 }
+		],
+		"sellPrice": 75,
+		"growDays": 7,
+		"regrowthDays": 5,
+		"yield": 2,
+		"experience": 14,
+		"note": "10% chance for extra cranberries.",
+		"description": "These tart red berries are a traditional winter food."
+	},
+	{
+		"id": "eggplant",
+		"name": "Eggplant",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 20 },
+			{ "name": "JojaMart", "price": 25 }
+		],
+		"sellPrice": 60,
+		"growDays": 5,
+		"regrowthDays": 5,
+		"experience": 12,
+		"note": "0.2% chance to produce extra eggplant per harvest.",
+		"description": "A rich and wholesome relative of the tomato. Delicious fried or stewed."
+	},
+	{
+		"id": "fairy-rose",
+		"name": "Fairy Rose",
+		"type": "flower",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 200 },
+			{ "name": "JojaMart", "price": 250 }
+		],
+		"sellPrice": 290,
+		"growDays": 12,
+		"experience": 29,
+		"description": "An old folk legend suggests that the sweet smell attracts fairies."
+	},
+	{
+		"id": "grape",
+		"name": "Grape",
+		"type": "fruit",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 60 },
+			{ "name": "JojaMart", "price": 75 }
+		],
+		"sellPrice": 80,
+		"growDays": 10,
+		"regrowthDays": 3,
+		"isTrellis": true,
+		"experience": 14,
+		"description": "A sweet cluster of fruit."
+	},
+	{
+		"id": "pumpkin",
+		"name": "Pumpkin",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 100 },
+			{ "name": "JojaMart", "price": 125 }
+		],
+		"sellPrice": 320,
+		"growDays": 13,
+		"experience": 31,
+		"note": "Can become a Giant Crop.",
+		"description": "A fall favorite, grown for its crunchy seeds and delicately flavored flesh. As a bonus, the hollow shell can be carved into a festive decoration."
+	},
+	{
+		"id": "yam",
+		"name": "Yam",
+		"type": "vegetable",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Pierre", "price": 60 },
+			{ "name": "JojaMart", "price": 75 }
+		],
+		"sellPrice": 160,
+		"growDays": 10,
+		"experience": 22,
+		"description": "A starchy tuber with a lot of culinary versatility."
+	},
+	{
+		"id": "powdermelon",
+		"name": "Powdermelon",
+		"type": "fruit",
+		"seasons": ["winter"],
+		"seedSources": [],
+		"sellPrice": 60,
+		"growDays": 7,
+		"experience": 12,
+		"note": "Can become a Giant Crop.",
+		"description": "Named for the powdery coating that forms on the surface, this melon is crisp and sweet, with a delicate flavor."
+	},
+	{
+		"id": "ancient-fruit",
+		"name": "Ancient Fruit",
+		"type": "fruit",
+		"seasons": ["spring", "summer", "fall"],
+		"seedSources": [],
+		"sellPrice": 550,
+		"growDays": 28,
+		"regrowthDays": 7,
+		"experience": 38,
+		"description": "It's been dormant for eons."
+	},
+	{
+		"id": "pineapple",
+		"name": "Pineapple",
+		"type": "fruit",
+		"seasons": ["summer"],
+		"seedSources": [],
+		"sellPrice": 300,
+		"growDays": 14,
+		"regrowthDays": 7,
+		"experience": 30,
+		"description": "A sweet and tangy tropical treat."
+	},
+	{
+		"id": "taro-root",
+		"name": "Taro Root",
+		"type": "vegetable",
+		"seasons": ["summer"],
+		"seedSources": [],
+		"sellPrice": 100,
+		"growDays": 10,
+		"note": "Grows faster near water.",
+		"experience": 16,
+		"description": "This starchy root is one of the most ancient crops."
+	},
+	{
+		"id": "sweet-gem-berry",
+		"name": "Sweet Gem Berry",
+		"type": "fruit",
+		"seasons": ["fall"],
+		"seedSources": [
+			{ "name": "Traveling Cart", "price": 1000 }
+		],
+		"sellPrice": 3000,
+		"growDays": 24,
+		"experience": 64,
+		"note": "Cannot be turned into seeds.",
+		"description": "It's by far the sweetest thing you've ever smelled."
+	}
+]

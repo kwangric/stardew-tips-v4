@@ -1,6 +1,5 @@
 module.exports = async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' })
-	eleventyConfig.addPassthroughCopy({ 'src/images': 'images' })
 
 	return {
 		dir: {
